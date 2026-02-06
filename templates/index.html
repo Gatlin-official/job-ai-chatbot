@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Career Assist AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="chat-container">
+
+    <div class="chat-header">
+        Career Assist AI
+    </div>
+    <div class="quick-actions">
+        <button onclick="insertTemplate('resume')">Resume Bullet</button>
+        <button onclick="insertTemplate('cover')">Cover Letter</button>
+        <button onclick="insertTemplate('interview')">Interview Question</button>
+        <button onclick="insertTemplate('summary')">Summarize JD</button>
+    </div>
+
+    <div id="chat-box"></div>
+
+    <div class="input-area">
+        <input type="text" id="user-input" placeholder="Ask about resumes, interviews..." />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+
