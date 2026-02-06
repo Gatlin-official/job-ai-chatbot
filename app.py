@@ -58,9 +58,8 @@ Strict Rules:
     )
 
     data = response.json()
-    print(data)
     return jsonify(data)
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
